@@ -3,8 +3,6 @@ import copy
 
 class AI:
 
-    # -----------------------
-    #   playground code
     @staticmethod
     def alpha_beta(state, depth, alpha, beta, maximizer):
         if depth == 0 or state.game_over():
